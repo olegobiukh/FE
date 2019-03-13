@@ -1,0 +1,303 @@
+@media only screen and (max-width: 1005px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  .text-tablet-none {
+    display: none;
+  }
+
+  .text-tablettime-none {
+    display: none;
+  }
+
+  .header-box {
+    padding-left: 36px;
+  }
+
+  .news-container {
+    justify-content: space-around;
+  }
+
+  .about-box {
+    width: 33%;
+  }
+
+  .about-text {
+    width: 83%;
+  }
+
+  .about-btn {
+    padding-right: 5px;
+  }
+
+  .comments-box {
+    width: 30%;
+  }
+
+}
+
+@media only screen and (max-width: 850px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .header-box {
+    width: 55%;
+  }
+
+  .header-img {
+    right: 0;
+  }
+
+  .update {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+  }
+
+  .slider-box {
+    width: 46%;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .text-tablettime-none {
+    display: inline-block;
+  }
+
+  h1 {
+    font-size: 41px;
+  }
+
+  .dropdown {
+    width: 80%;
+  }
+
+  .header-box {
+    padding-left: 0;
+    width: 50%;
+  }
+
+  .header-bg {
+    margin-top: 68px;
+  }
+
+  .header-subheading {
+    font-size: 1em;
+  }
+
+  .about-container {
+    flex-direction: column;
+    width: 80%;
+
+  }
+
+  .about-box {
+    width: 90%;
+  }
+
+  .news-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .slider-box {
+    width: 100%;
+  }
+
+  .update, .update-box, .update-content {
+    width: 100%;
+  }
+
+  .comments-container {
+     flex-direction: column;
+  }
+
+  .comments-box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .header-box p {
+    display: none;
+  }
+
+  .header-img {
+    width: 172px;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  .header-box {
+    width: 64%;
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+
+  .navigation-bottom {
+    display: none;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  header {
+    padding-bottom: 75px;
+  }
+
+  .header-bg {
+    margin-top: 31px;
+  }
+
+  .header-container {
+    text-align: center;
+  }
+
+  .navigation-mobile-first {
+    display: inline;
+  }
+
+  .navigation-mobile-first {
+    display: inline-block;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'league_gothicregular', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+  }
+
+  .logo-tablet {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navigation li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dropdown {
+      position: relative;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+  }
+
+  .navigation-top {
+    width: 245px;
+    height: 256px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin: auto;
+    top: 218px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: rgba(68,55,75, 0.97);
+    overflow: hidden;
+    z-index: 100;
+    line-height: 2;
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+
+  .navigation-top li {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 2px solid transparent; /*transparent*/
+  }
+
+  .navigation-top li:hover {
+    border-bottom: 2px solid #edbfff;
+    background-color: rgb(45,36,50, 0.97);
+  }
+
+  .navigation-top li:hover {
+    border-bottom: 2px solid violate;
+  }
+
+  .navigation-top a {
+    border-bottom: none;
+  }
+
+  .navigation-top {
+    padding-top: 0;
+  }
+
+  .header-img {
+    display: none;
+  }
+
+  .header-box {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .companies {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .companies div {
+    width: 30%;
+    text-align: center;
+  }
+
+  .comments {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+
+  @media only screen and (max-width: 420px)  {
+    .about-container {
+      width: 90%;
+    }
+
+    .about-box {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .text-mobile-none {
+      display: none;
+    }
+
+    .comments {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px)  {
+
+  .dropdown-content {
+
+  }
+}
