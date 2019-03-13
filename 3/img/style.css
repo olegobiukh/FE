@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.heading {
+  font-weight: 300;
+}
+
+.text {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 0.7em;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 50px;
+  background-color:  #7accc8;
+}

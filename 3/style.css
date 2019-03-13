@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p, li {
+  line-height: 1.7;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+.heading {
+  font-weight: 300;
+}
+
+.text {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: 25px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: bold;
+  padding: 12px 50px;
+
+}
+
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url('img/header.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+}
+
+.header-box {
+  width: 560px;
+}
+
+.header-subheading {
+  margin-top: 25px;
+}
+
+.header-video {
+  margin-top: 32px;
+}
+
+.header-btn {
+  margin-top: 45px;
+  background-color:  #7accc8;
+  border: 2px solid #7accc8;
+}
+
+.header-btn:hover {
+  background-color:  #fff;
+  color: #7accc8;
+}
+
+/*a*/
+.a {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  background-image: url('img/a.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.a-box {
+  width: 550px;
+}
+
+.a-btn {
+  margin-top: 45px;
+  background-color:  transparent;
+  border: 1px solid #fff;
+}
+
+.a-btn:hover {
+  background-color:  #fff;
+  color: #e8b968;
+}
+
+/*b*/
+.b {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-image: url('img/b-bg.jpg');
+  color: #fff;
+}
+
+.b-box {
+  width: 670px;
+}
+
+.b-img {
+  border-radius: 50%;
+  border: 7px solid #fff;
+}
+
+.b-text {
+  margin-top: 21px;
+  font-size: 1.6em;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.b-triangle {
+  position: absolute;
+  bottom: -37px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 12.5px 0 12.5px;
+  border-color: #5b696a transparent transparent transparent;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+/*c*/
+.c {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+}
+
+.c-container {
+  width: 80%;
+  text-align: left;
+
+}
+
+.c-box {
+  width: 45%;
+}
+
+.c-texting {
+  margin-top: 50px;
+}
+
+.c-heading {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #9197a8;
+}
+
+.c-text {
+  margin-top: 20px;
+  font-weight: lighter;
+  color: #7a8387;
+}
+
+.c-btn {
+  background-color: #f69679;
+  margin-top: 50px;
+  border: 2px solid #f69679;
+}
+
+.c-btn:hover {
+  background-color:  #fff;
+  color: #f69679;
+}
+
+/*d*/
+.d {
+  background-color: #f6f6f4;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.d-texting {
+  width: 323px;
+  color: #abbcc3;
+}
+
+.d-text {
+  margin-top: 23px;
+  font-size: 0.8em;
+}
+
+.d-box {
+  width: 240px;
+  background-color: #fff;
+  border-bottom: 4px solid #eaeaea;
+}
+
+.d-box p {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.d-box:nth-child(2) {
+  margin-left: 10px;
+}
+
+.d-colorbox {
+  width: 100%;
+  height: 240px;
+}
+
+.d-pink {
+  background-color: #f69679;
+}
+
+.d-pitch {
+  background-color: #e8b968;
+}
+
+.d-box-texting {
+  padding: 15px 0 30px 15px;
+}
+
+.d-box h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.p {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.d-wrapper {
+  width: 855px;
+}
+
+/*e*/
+footer {
+  padding-top: 55px;
+  padding-bottom: 100px;
+  background-color: #7accc8;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.footer-wrapper {
+  width: 80%;
+}
+
+.footer-container {
+  float: left;
+  width: 680px;
+}
+
+.footer-box-left {
+  float: left;
+  width: 390px;
+}
+
+.footer-box-right {
+  float: right;
+  width: 245px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list a:hover {
+  text-decoration: line-through;
+}
