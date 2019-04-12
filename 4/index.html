@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMELO</title>
+    <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/html" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/animate.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./scripts/script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header container">
+        <img class="header__logo" src="./images/logo.png" alt="logo">
+
+        <div class="header__nav container">
+            <div class="header__text">en <span class="line header__line"></span> ru</div>
+            <div class="header__burger container">
+                <span class="line burger__line"></span>
+                <span class="line burger__line-middle"></span>
+                <span class="line burger__line"></span>
+            </div>
+        </div>
+        
+    </header>
+    <section class="container-middle container">
+        <div class="copy container">
+            <p class="copy__text">© 2018 smelo</p>
+            <span class="line copy__line"></span>
+        </div>
+
+        <div class="container-content container">
+            <img   onmouseover="redImg(this)" onmouseout="normalImg(this)" src="./images/s.png" class="content__letter" alt="letter">
+            <img class="content__title" src="./images/melo.png " alt="title">
+            <div class="content__bg content__bg-left"></div>
+            <div class="content__bg content__bg-right"></div>
+        </div>
+
+        <nav class="navigation">
+            <ul class="navigation__container" id="menu">
+                <li class="navigation__item" data-title="главная" data-order="01"><span class="navigation__order"></span><span class="line navigation__line"></span></li>
+                <li class="navigation__item" data-title="о нас" data-order="02"><span class="navigation__order"></span><span class="line navigation__line"></span></li>
+                <li class="navigation__item" data-title="продукт" data-order="03"><span class="navigation__order"></span><span class="line navigation__line"></span></li>
+                <li class="navigation__item" data-title="контакты" data-order="04"><span class="navigation__order"></span><span class="line navigation__line"></span></li>
+            </ul>
+        </nav>
+        
+    </section>
+  
+    
+    <div class="slider container">
+        <div class="slider__container container">
+            <div class="slider__circle"></div>
+            <span class="line slider__line"></span>
+            <div class="slider__circle slider__circle-doted"></div>
+        </div>
+        
+        <p class="slider__text">тяни cюда смело</p>
+    </div>
+
+
+    <footer class="footer container">
+        <div class="footer__social container">
+            <a href="#"><i class="footer__icon footer__icon-facebook fab fa-facebook-f"></i></a>
+            <a href="#"><i class="footer__icon footer__icon-linkedin fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="footer__info container">
+            <span class="line footer__line"></span> 
+            <p class="footer__text">(044) 290 16 86 / (096) 869 51 44</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
