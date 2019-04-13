@@ -1,4 +1,4 @@
-Portfolio
+Portfolio HTML/CSS
 ___
 
 [https://olegobiukh.github.io/FE/1/](https://olegobiukh.github.io/FE/1/)
