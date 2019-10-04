@@ -35,14 +35,6 @@ h2, .btn {
   font-size: 1.6em;
 }
 
-.btn-border {
-  border-bottom: 2px solid transparent;
-}
-
-.btn-border:hover {
-  border-bottom: 2px solid #edbfff;
-}
-
 h1 {
   font-size: 64px;
   letter-spacing: -1.8px;
@@ -67,6 +59,10 @@ header {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.header-bg:hover {
+  background-color: rgba(213, 213, 213, 0.61);
+}
+
 .logo {
   font-size: 50px;
   letter-spacing: -1.4px;
@@ -88,6 +84,25 @@ header {
 
 .navigation-mobile-first {
   display: none;
+}
+
+.navigation__link::after,
+.about-btn::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #ab4141;
+  transition: width .3s;
+}
+
+.navigation__link:hover::after,
+.about-btn:hover::after {
+  width: 100%;
+}
+
+.about-btn::after {
+  background: #edbfff;
 }
 
 .navigation a {
@@ -114,10 +129,6 @@ nav a:hover {
   border-bottom: 2px solid transparent;
 }
 
-.navigation li:hover {
-  border-bottom: 2px solid #edbfff;
-}
-
 .header-container {
   position: relative;
 }
@@ -131,6 +142,22 @@ nav a:hover {
 
 .header-subheading {
   color: #edbfff;
+}
+
+.header-bg p:hover {
+  color: #0052b7;
+}
+
+.header-bg:hover h1 {
+  color: #a07272;
+}
+
+.header-bg:hover .header-subheading {
+  color: #4a364a;
+}
+
+.header-bg:hover p {
+  color: #0052b7;
 }
 
 .header-img {
@@ -187,6 +214,7 @@ nav a:hover {
 }
 
 .about-btn {
+  display: inline-block;
   color: #fff;
   font-size: 22px;
 }
@@ -211,6 +239,12 @@ nav a:hover {
   background-color: #fff;
   width: 46%;
   padding: 26px 33px 34px 42px;
+}
+
+.slider-box:hover {
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(12,0,89,1);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(12,0,89,1);
+  box-shadow: 0px 0px 12px 0px rgba(12,0,89,1);
 }
 
 .slider-heading-color {
@@ -273,7 +307,6 @@ h3 {
   color: #454545;
 }
 
-
 /*companies*/
 .companies {
   align-items:center;
@@ -282,6 +315,10 @@ h3 {
   padding-bottom: 27px;
   border-top: 1px solid #d8d8d8;
   border-bottom: 1px solid #d8d8d8;
+}
+
+.companies img:hover {
+  transform: scale(1.1);
 }
 
 /*comments*/
@@ -330,7 +367,7 @@ footer {
   background-image: url("../img/footer-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right left;
+  background-position: right;
   color: #fff;
 }
 
@@ -342,4 +379,8 @@ footer {
 
 .footer-author-bold {
   font-weight: 900;
+}
+
+.footer-links a + a {
+  margin-left: 10px;
 }
